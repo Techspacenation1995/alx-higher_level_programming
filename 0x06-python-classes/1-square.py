@@ -2,10 +2,11 @@
 
 """A class that defines a square"""
 
+
 class Square:
     """ This class represent a square"""
 
-    #We then define a constructor
+# We then define a constructor
     def __init__(self, size):
         """ Initislize a new square
 
@@ -14,5 +15,3 @@ class Square:
 
         """
         self.__size = size
-
-
