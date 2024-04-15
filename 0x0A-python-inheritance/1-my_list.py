@@ -4,7 +4,13 @@
 
 
 class MyList(list):
+    """
+        This class inherit from list.
+        Attribute:
+        Methods:
+        Returns: Prints the list ij ascending order
+    """
     def print_sorted(self):
-        """ Method """
+        """ Method that prints a list in ascending order """
         sorted_list = sorted(self)
         print(sorted_list)
